@@ -12,6 +12,12 @@ if Result.status_code==200:
     print (ResultJSON)
     print (ResultJSON['RestResponse'])
     print (ResultJSON['RestResponse']['result'])
-    print (ResultJSON['RestResponse']['result']['alpha3_code'])
+    print (ResultJSON['RestResponse']['result']['alpha2_code'])
 
+
+''' Some REST API URLs
+https://jsonplaceholder.typicode.com/posts
+http://services.groupkt.com/country/get/all
+http://services.groupkt.com/country/get/iso2code/IN
+'''
 
