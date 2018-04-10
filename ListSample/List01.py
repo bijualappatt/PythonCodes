@@ -1,5 +1,7 @@
 Students=['Renjith','Binu','Venu','Joice']
 
+print (len(Students))
+
 print(Students[0])  # //Renjith
 
 print(Students[-1]) # Last one - Joice
