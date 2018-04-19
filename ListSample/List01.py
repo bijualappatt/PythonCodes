@@ -12,3 +12,4 @@ print(Students[:2]) # ['Renjith', 'Binu']
 
 print(Students[1:2]) # ['Binu']
 print(Students[2:]) # ['Venu', 'Joice']
+
